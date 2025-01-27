@@ -69,7 +69,7 @@ const Link = () => {
       <div className='flex flex-col gap-8 sm:flex-row justify-between'>
         <div className='flex flex-col items-start gap-8 rounded-lg sm:w-2/5'>
           <span className='text-6xl font-extrabold hover:underline cursor-pointer' >{url?.title}</span>
-          <a href={`https://teenie.vercel.app/${link}`} target='_blank' className='text-3xl sm:text-4xl text-blue-400 font-bold hover:underline'>
+          <a href={`${url?.original_url}`} target='_blank' className='text-3xl sm:text-4xl text-blue-400 font-bold hover:underline'>
             https://teenie.vercel.app/{link}
           </a>
 
